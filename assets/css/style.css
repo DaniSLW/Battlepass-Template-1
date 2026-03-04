@@ -13,11 +13,6 @@
 body {
     background-color: rgba(15, 15, 15, 1);
     font-family: 'Kdam Thmor Pro', sans-serif;
-    /*background-attachment: fixed;
-    background-image: url('../img/winter-bgv3.png');
-    background-repeat: no-repeat;
-    background-size: cover !important;
-    background-position: center;*/
 }
 header {
     padding: 20px 50px;
@@ -387,8 +382,8 @@ main .rewards .reward_card .claim_button:hover {
 
     header {
         padding: 15px 20px;
-        flex-wrap: wrap;
-        gap: 10px;
+        display: flex;
+        flex-direction: column;
     }
     header .time-left {
         font-size: 18px;
@@ -421,19 +416,4 @@ main .rewards .reward_card .claim_button:hover {
         height: 80px;
     }
 }
-
-
-.copy-right {
-    position: absolute;
-    top: 40%;
-    left: 22.5%;
-    z-index: 0;
-    opacity: 0.2;
-}
-.copy-right span {
-    opacity: 0.2;
-    font-size: 300px;
-    font-family: 'Times New Roman', Times, serif;
-    flex-wrap: nowrap;
-    color: #fff;
-}
+/* END OF RESPONSIVE LAYOUT */
