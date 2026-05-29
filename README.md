@@ -69,8 +69,10 @@ It focuses on clean UI structure, tier visibility, and user engagement through a
 ---
 
 ## 📄 License
-This project is licensed under a custom license.  
-See the `LICENSE` file for details.
+
+MIT License
+
+You re free to use, modify, and distribute this software in peronal or commercial projects under the terms of the MIT license.
 
 ---
 
